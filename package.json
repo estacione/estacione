@@ -1,5 +1,24 @@
 {
-	"name": "estacione",
-	"version": "0.0.1",
-	"private": true
+  "name": "estacione",
+  "version": "0.0.1",
+  "description": "Estacione Faccat",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/estacione/estacione"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
 }
