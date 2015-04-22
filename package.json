@@ -1,16 +1,16 @@
 {
-  "name": "estacione",
-  "version": "0.0.1",
-  "description": "Estacione Faccat",
-  "main": "app.js",
+  "name": "node-js-getting-started",
+  "version": "0.1.3",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": "0.12.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/estacione/estacione"
+    "url": ""
   }
 }
