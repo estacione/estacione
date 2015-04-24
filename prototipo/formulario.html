@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>Formulario 20032015</title>
+
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript" src="js/javajs.js"></script>
+
+</head>
+<body>
+
+	<header>
+		<h1>Este é o meu texto na tag HEADER</h1>
+
+		<section>
+			<div class="botoes" >
+				<section>
+					<button class="btn" onclick="validarForm();" onDblClick="mostraDados();" />Clique duas vezes para mostrar informações</button>
+					<a href="index.html"><button class="btn" >Cancelar</button></a>
+				</section>
+			</div>
+		</section>
+
+	</header>
+
+	<section>
+
+		<form class="login" id="formulario" name="formulario" method="post" onChange="return validarForm();" action="">
+
+			<h4>Esse acesso é restrito para maiores de 15 anos!</h4>
+			<p>
+				<input type="text" id="mostra" name="nome" maxlength="30" placeholder="Seu nome" required /><br>
+				<input type="number" class="" name="idade" placeholder="Sua idade" required /><br>
+				<input type="email" class="" name="email" placeholder="Seu email" required /><br>
+				Data de Nascimento:<br>
+				<input type="date" class="" name="nascimento" required /><br>
+
+				<button class="btn" id="btn-input" name="" >Validar dados do Formulário </button>
+			</p>
+
+			<p id="demo"></p>
+			<!-- <input type="submit" class="" name="btnForm" value="Mostra informações" onclick="mostraDados();" /> -->
+			
+		</form>
+
+	</section>
+
+	<aside>
+		<section>
+			<h2>Esta é a minha section dentro de aside</h2>
+		</section>
+	</aside>
+
+	<footer>
+		<hr>
+		<h2>Meu rodapé dentro da tag FOOTER</h2>
+	</footer>
+
+</body>
+</html>
